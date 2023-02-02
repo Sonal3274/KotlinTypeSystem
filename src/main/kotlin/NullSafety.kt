@@ -16,7 +16,7 @@ fun main() {
     println(gender2?.toUpperCase())
 
     gender2?.let { //In this block of let the value will not be null.
-        println("Line 1")  // the benefit of using let is that it'll give us not nullable option.
+        println("Line 1")  // here, the benefit of using let is that it'll give us not nullable option.
         println("Line 2 $gender2")
         println("Line 3 $it") // "it" points to gender2
     }
