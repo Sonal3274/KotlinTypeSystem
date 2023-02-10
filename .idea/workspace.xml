@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34abefe5-d254-41aa-b7ca-e7dda7f98228" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/NullSafety.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="34abefe5-d254-41aa-b7ca-e7dda7f98228" name="Changes" comment="Created an example for nullability and collections in kotlin">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,19 +45,41 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.NullSafetyKt">
-    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainKt" />
+  <component name="RunManager" selected="Kotlin.ReadOnlyAndMutableCollectionsKt">
+    <configuration name="NothingTypeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NothingTypeKt" />
       <module name="KotlinTypeSystem.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NullSafetyKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NullSafetyKt" />
+    <configuration name="NullabilityAndCollectionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NullabilityAndCollectionsKt" />
+      <module name="KotlinTypeSystem.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadOnlyAndMutableCollectionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReadOnlyAndMutableCollectionsKt" />
+      <module name="KotlinTypeSystem.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RootTypesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RootTypesKt" />
+      <module name="KotlinTypeSystem.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnitTypeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UnitTypeKt" />
       <module name="KotlinTypeSystem.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -67,8 +87,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.NullSafetyKt" />
-        <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="Kotlin.ReadOnlyAndMutableCollectionsKt" />
+        <item itemvalue="Kotlin.NullabilityAndCollectionsKt" />
+        <item itemvalue="Kotlin.NothingTypeKt" />
+        <item itemvalue="Kotlin.UnitTypeKt" />
+        <item itemvalue="Kotlin.RootTypesKt" />
       </list>
     </recent_temporary>
   </component>
@@ -81,11 +104,111 @@
       <option name="presentableId" value="Default" />
       <updated>1675030055210</updated>
       <workItem from="1675030056700" duration="1560000" />
-      <workItem from="1675328901235" duration="1321000" />
+      <workItem from="1675328901235" duration="13332000" />
     </task>
+    <task id="LOCAL-00001" summary="Created an example to show null safety features in kotlin">
+      <created>1675333615593</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675333615594</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Created an example for safe casts">
+      <created>1675334684924</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675334684924</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Created an example for lateinit">
+      <created>1675437776538</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675437776538</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Created an example for the extensions for nullable types">
+      <created>1675438991458</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1675438991458</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Created an example for the nullability of type parameters">
+      <created>1675528143820</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675528143820</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Created an example for primitive types">
+      <created>1675610889326</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675610889326</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Created an example for nullable primitive types">
+      <created>1675707933664</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1675707933664</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Created an example for number conversions">
+      <created>1675794944139</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1675794944139</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Created an example for root types">
+      <created>1675852089942</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1675852089942</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Created an example for unit type - Kotlin's void">
+      <created>1675852338084</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1675852338084</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Created an example for nothing type">
+      <created>1675855134299</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1675855134299</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Created an example for nullability and collections in kotlin">
+      <created>1675917961921</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1675917961921</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created an example to show null safety features in kotlin" />
+    <MESSAGE value="Created an example for safe casts" />
+    <MESSAGE value="Created an example for lateinit" />
+    <MESSAGE value="Created an example for the extensions for nullable types" />
+    <MESSAGE value="Created an example for the nullability of type parameters" />
+    <MESSAGE value="Created an example for primitive types" />
+    <MESSAGE value="Created an example for nullable primitive types" />
+    <MESSAGE value="Created an example for number conversions" />
+    <MESSAGE value="Created an example for root types" />
+    <MESSAGE value="Created an example for unit type - Kotlin's void" />
+    <MESSAGE value="Created an example for nothing type" />
+    <MESSAGE value="Created an example for nullability and collections in kotlin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created an example for nullability and collections in kotlin" />
   </component>
 </project>
